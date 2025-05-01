@@ -17,6 +17,5 @@ it does not have a sign bit to indicatw whether this number is positive or negat
 ### Signed numbers
 In the binary system, a signed number representation uses the most significant bit (MSB) to indicate the sign of the number. If the MSB is 0, the number is positive; if it's 1, the number is negative. Like 10000010 is a 8-bit number  the MSB of this number is `1`
 so the number will be in negative the rest of the number detemines the original value of the number which is 0.
-![image](https://github.com/user-attachments/assets/76825eb3-5b4f-4638-a995-4cefabc60469)
-
+ <img src="your-image-url" alt="https://github.com/user-attachments/assets/76825eb3-5b4f-4638-a995-4cefabc60469" width="200"/>
 
