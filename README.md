@@ -67,6 +67,8 @@ Run the following steps in terminal:
 
 Then you should see the same result as:
 
+![image](https://github.com/user-attachments/assets/8e469627-92ab-4e73-9670-6e5e4ab942c8)
+
 
 
 
