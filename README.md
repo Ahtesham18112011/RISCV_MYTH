@@ -40,11 +40,11 @@ This is the c code for adding numbers make a file named 1ton.c and paste this  i
 
 1. Open the terminal and type
    
-    gcc 1ton.c
+        gcc 1ton.c
 
 3. And then type
   
-    ./a.out
+        ./a.out
    
 Then you will see the output results
 
