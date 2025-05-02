@@ -46,6 +46,9 @@ This is the c code for adding numbers make a file named 1ton.c and paste this  i
   
         ./a.out
    
-Then you will see the output results
+Then you will see the following output results
+
+![image](https://github.com/user-attachments/assets/31b4a2ff-7d0a-46f8-b8c0-e601cfa2a2a8)
+
 
 
