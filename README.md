@@ -20,3 +20,15 @@ In the binary system, a signed number representation uses the most significant b
 so the number will be in negative the rest of the number detemines the original value of the number which is 0.
 <img src="https://github.com/user-attachments/assets/c70ff96d-93f4-4c5e-81d7-34335760ef2f" alt="Example Image" width="700"/>
 
+## Labs for Day 1  
+**1. Sinmple c program for adding numbers between 1 to n**
+
+/home/vsduser/Pictures/Screenshot from 2025-05-02 14-39-10.png
+
+
+
+
+
+
+
+
