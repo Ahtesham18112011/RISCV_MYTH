@@ -23,12 +23,27 @@ so the number will be in negative the rest of the number detemines the original 
 ## Labs for Day 1  
 **1. Sinmple c program for adding numbers between 1 to n**
 
-/home/vsduser/Pictures/Screenshot from 2025-05-02 14-39-10.png
+    #include <stdio.h>
 
+    int main() {
+    int i, sum = 0, n = 5;
+    for (i=1; i <= n; ++i) {
+    sum += i; }
+    printf("Sum of numbers from 1 to %d is %d\n", n, sum);
+    return 0;
 
+    }
 
+This is the c code for adding numbers make a file named 1ton.c and paste this  in that file.
 
+**Steps to run this**
 
+1. Open the terminal and type
+   
+    gcc 1ton.c
 
+3. And then type  
+    ./a.out
+Then you will see the output results
 
 
