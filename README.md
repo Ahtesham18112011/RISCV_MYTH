@@ -42,8 +42,10 @@ This is the c code for adding numbers make a file named 1ton.c and paste this  i
    
     gcc 1ton.c
 
-3. And then type  
+3. And then type
+  
     ./a.out
+   
 Then you will see the output results
 
 
