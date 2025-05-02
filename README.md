@@ -1,6 +1,9 @@
 # RISCV MYTH course
 
 The “RISC-V based MYTH (Microprocessor for You in Thirty Hours)” workshop provides a structured introduction to RISC-V architecture, covering software-to-hardware concepts through hands-on labs. Participants begin with C programming, GCC compilation, and Spike simulation before progressing to number systems and assembly programming. The workshop delves into combinational and sequential logic, pipeline implementation, and microarchitecture of a single-cycle RISC-V CPU. Labs include instruction decoding, register file operations, ALU implementation, and control flow hazards. The final stages focus on load-store instructions, memory management, and CPU testbench development, offering comprehensive learning experience in microprocessor design and verification.
+
+## What is RISV-V
+RISC-V is an open-source instruction set architecture (ISA) that defines the basic operations a processor can perform. It's a "blueprint" for designing and building processors, offering a modular and extensible foundation for a wide range of applications, from embedded systems to high-performance computing.
 # DAY 1
 The day 1 of this course covered the introduction to the RISC-V ISA, GNU compiler, binary number systemms, unsigned 64-bit binary number system and signed 64-bit binary system.
 ## Binary number system 
@@ -70,7 +73,18 @@ Then you should see the same result as:
 ![image](https://github.com/user-attachments/assets/8e469627-92ab-4e73-9670-6e5e4ab942c8)
 
 
+# Day 2
+The day2 focuses on ABI (Application Binary Interface) and the 32 registers present in the RISC V micrprocessor
 
+## What is ABI
+An Application Binary Interface (ABI) is a standard that defines the interface between compiled applications and the operating system, or between different binary modules. ABIs define the rules that compilers and assemblers must follow when generating binary code, ensuring that different code modules can be linked together and executed seamlessly.
+
+### Why there are only 32 registers in RISC-V architecture
+
+Let’s look at an example load doubleword instruction below, which loads data into x8 register from memory, whose base address is present in register x23 and offset is ‘16’. The way a computer sees this instruction is through a 32-bit binary pattern.
+![image](https://github.com/user-attachments/assets/10ff3f1e-280b-4c0d-ad70-dafc0aa67590)
+
+Focus on ‘rs2’ and ‘rs1’. They are again 5 bits. Practically, to keep design simple, all registers in a RISC-V architecture is represented by 5-bit binary pattern. Now the calculation is easy. 5-bits to represent registers, which means total number of registers is 2^5 = 32 registers
 
 
 
