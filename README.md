@@ -21,7 +21,7 @@ so the number will be in negative the rest of the number detemines the original 
 <img src="https://github.com/user-attachments/assets/c70ff96d-93f4-4c5e-81d7-34335760ef2f" alt="Example Image" width="700"/>
 
 ## Labs for Day 1  
-**1. Sinmple c program for adding numbers between 1 to n**
+**1. Simple c program for adding numbers between 1 to n**
 
     #include <stdio.h>
 
@@ -49,6 +49,37 @@ This is the c code for adding numbers make a file named 1ton.c and paste this  i
 Then you will see the following output results
 
 ![image](https://github.com/user-attachments/assets/31b4a2ff-7d0a-46f8-b8c0-e601cfa2a2a8)
+
+**2. Simulation of the same 1ton program but with Spike**
+
+Run the following steps in terminal:
+
+1. Open the terminal and type
+
+        riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o 1ton.o 1ton.c        
+
+
+2. Then type
+
+        spike pk 1ton.o
+        
+
+Then you should see the same result as:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
