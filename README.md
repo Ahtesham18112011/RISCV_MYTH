@@ -85,7 +85,7 @@ Let’s look at an example load doubleword instruction below, which loads data i
 
 ![image](https://github.com/user-attachments/assets/10ff3f1e-280b-4c0d-ad70-dafc0aa67590)
 
-Focus on ‘rs2’ and ‘rs1’. They are again 5 bits. Practically, to keep design simple, all registers in a RISC-V architecture is represented by 5-bit binary pattern. Now the calculation is easy. 5-bits to represent registers, which means total number of registers is 2^5 = 32 registers
+Focus on ‘rs2’ and ‘rs1’. They have 5 bits. Practically, to keep design simple, all registers in a RISC-V architecture is represented by 5-bit binary pattern. Now the calculation is easy. 5-bits to represent registers, which means total number of registers is 2^5 = 32 registers
 
 
 
