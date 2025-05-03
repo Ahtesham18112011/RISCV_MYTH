@@ -80,8 +80,11 @@ Then you should see the same result as:
 
 </details>
 
+******************************************************************************************************************************************************
 
-# Day 2
+<details>
+  <summary>Day 2</summary>
+	
 The day2 focuses on ABI (Application Binary Interface) and the 32 registers present in the RISC V micrprocessor
 
 ## What is ABI
@@ -143,8 +146,12 @@ Then you will see the following results after this:
 
 ![image](https://github.com/user-attachments/assets/43e37975-ee6d-4f8e-8bd2-844452451f75)
 
+</details>
 
-# Day 3
+******************************************************************************************************************************************************
+
+<details>
+  <summary>Day 3</summary>
 
 The day 3 of this course focused on basics of digital logic like logic gates, Multiplexers, Combinational logic, Sequential logic, pipe lined logic and Validity.
 
