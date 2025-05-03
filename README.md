@@ -4,7 +4,13 @@ The “RISC-V based MYTH (Microprocessor for You in Thirty Hours)” workshop pr
 
 ## What is RISV-V
 RISC-V is an open-source instruction set architecture (ISA) that defines the basic operations a processor can perform. It's a "blueprint" for designing and building processors, offering a modular and extensible foundation for a wide range of applications, from embedded systems to high-performance computing.
-# DAY 1
+
+<details>
+  <summary>Day 1</summary>
+
+  
+
+
 The day 1 of this course covered the introduction to the RISC-V ISA, GNU compiler, binary number systemms, unsigned 64-bit binary number system and signed 64-bit binary system.
 ## Binary number system 
 The binary number system  contains only two number that are 0 and 1 and a bit is the digit of a binary number a group og 8 bits is called a byte and a group of 32 bits is called a word. Similarly a group of 64 bits is called a doubleword.
@@ -71,6 +77,8 @@ Run the following steps in terminal:
 Then you should see the same result as:
 
 ![image](https://github.com/user-attachments/assets/8e469627-92ab-4e73-9670-6e5e4ab942c8)
+
+</details>
 
 
 # Day 2
