@@ -140,7 +140,7 @@ Then you will see the following results after this:
 
 The day 3 of this course focused on basics of digital logic like logic gates, Multiplexers, Combinational logic, Sequential logic and pipe lined logic.
 
-## logic gates
+## Logic gates
 
 There are 3 main types of logic gates of which other more logic gates are made. These are AND, OR & NOT. The function of these gates are given below:
 
@@ -149,6 +149,9 @@ There are 3 main types of logic gates of which other more logic gates are made. 
 <img src="https://github.com/user-attachments/assets/62e7e319-83a3-4e75-b6ed-ffc409774c27" alt="Example Image" width="400"/>
 
 <img src="https://graphicmaths.com/img/computer-science/logic/logic-gates/not-gate.png" alt="Example Image" width="400"/>
+
+
+Logic gate is a fundamental building block in digital circuits, acting as a simple electronic switch or circuit that operates on binary inputs (0 or 1) to produce a binary output based on a specific logical rule. These gates implement Boolean algebra and are crucial for creating more complex digital systems like computers and other electronic devices. 
 
 
 
