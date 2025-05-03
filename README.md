@@ -138,7 +138,7 @@ Then you will see the following results after this:
 
 # Day 3
 
-The day 3 of this course focused on basics of digital logic like logic gates, Multiplexers, Combinational logic, Sequential logic and pipe lined logic.
+The day 3 of this course focused on basics of digital logic like logic gates, Multiplexers, Combinational logic, Sequential logic, pipe lined logic and Validity.
 
 ## Logic gates
 
@@ -177,7 +177,9 @@ Pipelined logic, or pipelining, is a technique in computer architecture and digi
 
 ![Screenshot (135)](https://github.com/user-attachments/assets/be938e22-7e5f-4689-aae0-85b0225f2ea8)
 
+## Validity
 
+Validity is the device meets the needs and requirements of its intended users and the intended use environment. In a chip there are maximum things that are not useful and sit idle in the chip, but the power still goes in them, which is a wastage of electricity. Validity fixes this problem by eliminating the non-useful gates.
 
 
 
