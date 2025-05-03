@@ -144,7 +144,7 @@ The day 3 of this course focused on basics of digital logic like logic gates, Mu
 
 There are 3 main types of logic gates of which other more logic gates are made. These are AND, OR & NOT. The function of these gates are given below:
 
-![image](https://github.com/user-attachments/assets/eb13b413-24c2-4670-8a49-097678866577)
+<img src="https://github.com/user-attachments/assets/eb13b413-24c2-4670-8a49-097678866577" alt="Example Image" width="700"/>
 
 ![image](https://github.com/user-attachments/assets/62e7e319-83a3-4e75-b6ed-ffc409774c27)
 
