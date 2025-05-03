@@ -151,7 +151,7 @@ There are 3 main types of logic gates of which other more logic gates are made. 
 <img src="https://graphicmaths.com/img/computer-science/logic/logic-gates/not-gate.png" alt="Example Image" width="400"/>
 
 
-Logic gate is a fundamental building block in digital circuits, acting as a simple electronic switch or circuit that operates on binary inputs (0 or 1) to produce a binary output based on a specific logical rule. These gates implement Boolean algebra and are crucial for creating more complex digital systems like computers and other electronic devices. 
+Logic gate is a fundamental building block in digital circuits, acting as a simple electronic switch or circuit that operates on binary inputs (0 or 1) to produce a binary output based on a specific logical rule. These gates implement Boolean algebra and are crucial for creating more complex digital systems like computers and other electronic devices. From these we can make more gates such as NAND,NOR,XOR and XNOR etc.
 
 
 
