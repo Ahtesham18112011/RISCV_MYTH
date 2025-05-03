@@ -138,6 +138,19 @@ Then you will see the following results after this:
 
 # Day 3
 
+The day 3 of this course focused on basics of digital logic like logic gates, Multiplexers, Combinational logic, Sequential logic and pipe lined logic.
+
+## logic gates
+
+There are 3 main types of logic gates of which other more logic gates are made. These are AND, OR & NOT. The function of these gates are given below:
+
+![image](https://github.com/user-attachments/assets/eb13b413-24c2-4670-8a49-097678866577)
+
+![image](https://github.com/user-attachments/assets/62e7e319-83a3-4e75-b6ed-ffc409774c27)
+
+![image](https://github.com/user-attachments/assets/579dd3d4-9cef-43e4-916f-20e728e81555)
+
+
 
 
 
