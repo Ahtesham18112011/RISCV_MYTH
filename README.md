@@ -181,8 +181,19 @@ Pipelined logic, or pipelining, is a technique in computer architecture and digi
 
 Validity is the device meets the needs and requirements of its intended users and the intended use environment. In a chip there are maximum things that are not useful and sit idle in the chip, but the power still goes in them, which is a wastage of electricity. Validity fixes this problem by eliminating the non-useful gates.
 
+## Labs for Day 3
 
+**1. Combinational calculator**
 
+1. Go to [Makerchip](makerchip.com) and click on launch makerchip IDE.
+2. Go to editor and place the below TL-Verilog in place of //...
+
+		$sum[31:0] = $val1[31:0] + $val2[31:0];
+   		$diff[31:0] = $val1[31:0] - $val2[31:0];
+   		$prod[31:0] = $val1[31:0] * $val2[31:0];
+   		$quot[31:0] = $val1[31:0] / $val2[31:0];
+​
+  		 $out[31:0] = $op[0] ? $sum : $op[1] ? $diff : $op[2] ? $prod : $qout ;
 
 
 
