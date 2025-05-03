@@ -214,7 +214,16 @@ Validity is the device meets the needs and requirements of its intended users an
 
 3. Then click on 'compile'.
 
+![Screenshot (136)](https://github.com/user-attachments/assets/d09f530e-6450-4567-936f-2c601c9b9ae4)
 
+**3. Fibonacci Sequence**
+
+1. Go to [Makerchip](makerchip.com) and click on launch makerchip IDE.
+2. Go to editor and place the below TL-Verilog in place of //...
+
+			$val[15:0] = $reset ? 1 : >>1$val + >>2$val;
+
+3. Then click on 'compile'.
 
 
 
