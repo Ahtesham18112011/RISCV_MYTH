@@ -227,6 +227,8 @@ The Fibonacci Sequence is a sequence of whole numbers starting with two 1s, wher
 
 3. Then click on 'compile'.
 
+![Screenshot (138)](https://github.com/user-attachments/assets/e78b2a90-f684-4cf0-89a4-3a34da80f901)
+
 **4. Pythagorean Theorem Pipeline**
 
 1. Go to [Makerchip](makerchip.com) and click on launch makerchip IDE.
