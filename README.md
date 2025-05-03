@@ -159,6 +159,18 @@ A combinational logic circuit is a type of digital circuit where the output at a
 ![image](https://github.com/user-attachments/assets/58f304fc-3d8b-43f8-b22d-f287eea2537b)
 
 
+## Sequential Logic
+
+A sequential logic circuit is a digital circuit whose output depends not only on the present input but also on the past inputs and the internal state of the circuit. It incorporates memory elements, like flip-flops or latches, to store the previous state, allowing the circuit to "remember" past inputs. This contrasts with combinational logic, where the output is solely determined by the current inputs. 
+
+![image](https://github.com/user-attachments/assets/7f393eba-f645-4cef-9997-cb261b33dae3)
+
+
+## Storage elements: Latches & Flip-Flops
+
+
+
+
 
 
 
