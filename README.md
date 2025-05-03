@@ -153,6 +153,10 @@ There are 3 main types of logic gates of which other more logic gates are made. 
 
 Logic gate is a fundamental building block in digital circuits, acting as a simple electronic switch or circuit that operates on binary inputs (0 or 1) to produce a binary output based on a specific logical rule. These gates implement Boolean algebra and are crucial for creating more complex digital systems like computers and other electronic devices. From these we can make more gates such as NAND,NOR,XOR and XNOR etc.
 
+## Combinational Circuits
+A combinational logic circuit is a type of digital circuit where the output at any given moment depends on the current combination of its inputs. It lacks memory, meaning the output is not influenced by the past states of the inputs. These circuits are built using logic gates like AND, OR, NOT, NAND, and NOR. 
+
+![image](https://github.com/user-attachments/assets/58f304fc-3d8b-43f8-b22d-f287eea2537b)
 
 
 
