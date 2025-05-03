@@ -172,6 +172,11 @@ In digital electronics, a flip-flop is a fundamental memory circuit that can sto
 
 ![image](https://github.com/user-attachments/assets/606244fa-ffa0-409b-834a-b9b039a1312b)
 
+## Pipelined logic
+Pipelined logic, or pipelining, is a technique in computer architecture and digital circuit design that increases throughput by dividing a task into multiple stages and executing them in parallel.
+
+![Screenshot (135)](https://github.com/user-attachments/assets/be938e22-7e5f-4689-aae0-85b0225f2ea8)
+
 
 
 
