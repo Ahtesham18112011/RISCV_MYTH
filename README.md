@@ -166,7 +166,12 @@ A sequential logic circuit is a digital circuit whose output depends not only on
 ![image](https://github.com/user-attachments/assets/7f393eba-f645-4cef-9997-cb261b33dae3)
 
 
-## Storage elements: Latches & Flip-Flops
+## Storage elements: Flip-Flops
+
+In digital electronics, a flip-flop is a fundamental memory circuit that can store a single bit of information (0 or 1) and can be toggled between these two states. It's like a basic switch that can be flipped on or off, retaining that state until an external signal (like a clock pulse) triggers a change. Flip-flops are bistable devices, meaning they have two stable states. They can hold a specific binary value (0 or 1) until a control signal causes them to change. 
+
+![image](https://github.com/user-attachments/assets/606244fa-ffa0-409b-834a-b9b039a1312b)
+
 
 
 
