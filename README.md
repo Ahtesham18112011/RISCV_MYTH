@@ -251,6 +251,7 @@ The Fibonacci Sequence is a sequence of whole numbers starting with two 1s, wher
 	    
 3. Then click on 'compile'.
 
+![Screenshot (137)](https://github.com/user-attachments/assets/2b9fbb2d-fe3f-4922-be3b-f32eb2ad1404)
 
 
 
