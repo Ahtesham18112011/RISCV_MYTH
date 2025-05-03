@@ -218,6 +218,8 @@ Validity is the device meets the needs and requirements of its intended users an
 
 **3. Fibonacci Sequence**
 
+The Fibonacci Sequence is a sequence of whole numbers starting with two 1s, where each subsequent value in the sequence is the sum of the previous two values.
+
 1. Go to [Makerchip](makerchip.com) and click on launch makerchip IDE.
 2. Go to editor and place the below TL-Verilog in place of //...
 
@@ -225,6 +227,29 @@ Validity is the device meets the needs and requirements of its intended users an
 
 3. Then click on 'compile'.
 
+**4. Pythagorean Theorem Pipeline**
+
+1. Go to [Makerchip](makerchip.com) and click on launch makerchip IDE.
+2. Go to editor and place the below TL-Verilog in place of //...
+
+			 |calc
+     			 @0
+      			   $valid = & $rand_valid[1:0];  // Valid with 1/4 probability
+                                      			 // (& over two random bits).
+   
+  			 // DUT (Design Under Test)
+   			|calc
+      			?$valid
+        			 // Pythagoras's Theorem
+        			 @1
+            			$aa_sq[7:0] = $aa[3:0] ** 2;
+           			 $bb_sq[7:0] = $bb[3:0] ** 2;
+        			 @2
+            			$cc_sq[8:0] = $aa_sq + $bb_sq;
+        			 @3
+            			$cc[4:0] = sqrt($cc_sq);
+	    
+3. Then click on 'compile'.
 
 
 
