@@ -308,6 +308,8 @@ The Fibonacci Sequence is a sequence of whole numbers starting with two 1s, wher
 
 ![Screenshot (139)](https://github.com/user-attachments/assets/366b293c-c42e-49d8-ac90-c173e201f7cb)
 
+</details>
+
 ******************************************************************************************************************************************************
 
 
