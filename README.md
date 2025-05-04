@@ -4,8 +4,8 @@ The “RISC-V based MYTH (Microprocessor for You in Thirty Hours)” workshop pr
 
 <!-- Card example -->
 <div align="center">
-  <a href="https://your-website-url.com" target="_blank">
-    <img src="https://via.placeholder.com/600x300.png?text=Special+Offer+%24Price" alt="Clickable Card" style="border-radius:10px; width:100%; max-width:600px;" />
+  <a href="https://www.vlsisystemdesign.com/riscv-based-myth/" target="_blank">
+    <img src="[https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/1RISC-V%20based-2048x1024.png]?text=Special+Offer+%24Price" alt="Clickable Card" style="border-radius:10px; width:100%; max-width:600px;" />
   </a>
   <p><strong>Price: $50</strong></p>
 </div>
