@@ -270,7 +270,41 @@ The Fibonacci Sequence is a sequence of whole numbers starting with two 1s, wher
 
 ![Screenshot (137)](https://github.com/user-attachments/assets/2b9fbb2d-fe3f-4922-be3b-f32eb2ad1404)
 
+**4. Final claculator with vaidity and memory**
 
+1. Go to [Makerchip](makerchip.com) and click on launch makerchip IDE.
+2. Go to editor and place the below TL-Verilog in place of //...
+
+		|calc
+    		  @0
+      		   $reset = *reset;
+     		 @1
+         		$valid[0:0] = $reset ? '0 : >>1$valid + 1;
+         		$valid_or_reset = $valid || $reset;
+         		$val2[31:0] = $rand2;
+        		 $val1[31:0] = >>2$out;
+         
+     		 ?$valid_or_reset
+         		@1
+            		$sum[31:0] = $val2[31:0] + $val1[31:0];
+            		$diff[31:0] = $val2[31:0] - $val1[31:0];
+   			 $prod[31:0] = $val2[31:0] * $val1[31:0];
+            		$div[31:0] = $val2[31:0] / $val1[31:0];
+
+      		@2
+      		?$valid_or_reset
+         		@2
+           		 $out[31:0] = $reset ? '0:
+                  		    $op[2:0] == 0 ? $sum :
+                   		   $op[2:0] == 1 ? $diff :
+                      		$op[2:0] == 2 ? $prod :
+                      		$op[2:0] == 3 ? $div :
+                      		$op[2:0] == 4 ? >>2$mem : >>2$out;
+            		$mem[31:0] = $reset ? '0:
+                      		$op[2:0] == 5 ? $val1:
+                      		>>2$mem;
+	    
+3. Then click on 'compile'.
 
 
 
