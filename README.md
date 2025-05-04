@@ -13,6 +13,9 @@ The “RISC-V based MYTH (Microprocessor for You in Thirty Hours)” workshop pr
 ## What is RISC-V
 RISC-V is an open-source instruction set architecture (ISA) that defines the basic operations a processor can perform. It's a "blueprint" for designing and building processors, offering a modular and extensible foundation for a wide range of applications, from embedded systems to high-performance computing.
 
+> [!NOTE]
+> Before moving on, you should have to know that all the tools like Linux, Spike etc. are given separately to the student by the facilator.
+
 # Summary of this workshop
 <details>
   <summary>Day 1: Introduction to RISC-V ISA and GNU compiler toolchain</summary>
