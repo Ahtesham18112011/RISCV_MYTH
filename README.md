@@ -30,7 +30,7 @@ If i a have a 2-bit binary number the number of possible pattern for these two n
 
 ### Unsigned numbers
 In binary, an unsigned number is a representation of a non-negative integer, meaning it only represents positive whole numbers and zero. It doesn't have a sign bit to indicate positivity or negativity. Like 00000001 is a binary number equivalent to decimal number 1 
-it does not have a sign bit to indicatw whether this number is positive or negative in its MSD (Most significant Bit).
+it does not have a sign bit to indicate whether this number is positive or negative in its MSD (Most significant Bit).
 
 ![image](https://github.com/user-attachments/assets/cfd8c53a-9025-4738-a92a-11264b30dd97)
 
@@ -53,11 +53,11 @@ so the number will be in negative the rest of the number detemines the original 
 
     }
 
-This is the c code for adding numbers make a file named 1ton.c and paste this  in that file.
+This is the c code for adding numbers, make a file named 1ton.c and paste this  in that file.
 
 **Steps to run this**
 
-1. Open the terminal and type
+1. Open the linux terminal and type
    
         gcc 1ton.c
 
