@@ -15,7 +15,7 @@ RISC-V is an open-source instruction set architecture (ISA) that defines the bas
 
 # Summary of this workshop
 <details>
-  <summary>Day 1</summary>
+  <summary>Day 1: Introduction to RISC-V ISA and GNU compiler toolchain</summary>
 
   
 
@@ -92,7 +92,7 @@ Then you should see the same result as:
 ******************************************************************************************************************************************************
 
 <details>
-  <summary>Day 2</summary>
+  <summary>Day 2: Introduction to ABI and basic verification flow</summary>
 	
 The day2 focuses on ABI (Application Binary Interface) and the 32 registers present in the RISC V micrprocessor
 
@@ -160,7 +160,7 @@ Then you will see the following results after this:
 ******************************************************************************************************************************************************
 
 <details>
-  <summary>Day 3</summary>
+  <summary>Day 3: Digital Logic with TL-verilog and Makerchip</summary>
 
 The day 3 of this course focused on basics of digital logic like logic gates, Multiplexers, Combinational logic, Sequential logic, pipe lined logic and Validity.
 
