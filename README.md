@@ -7,7 +7,7 @@ The “RISC-V based MYTH (Microprocessor for You in Thirty Hours)” workshop pr
   <a href="https://www.vlsisystemdesign.com/riscv-based-myth/" target="_blank">
     <img src="https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/1RISC-V%20based-2048x1024.png?text=Special+Offer+%24Price" alt="Clickable Card" style="border-radius:10px; width:100%; max-width:600px;" />
   </a>
-  <p><strong>Price: $50</strong></p>
+  <p><strong>Price: $25</strong></p>
 </div>
 
 ## What is RISV-V
