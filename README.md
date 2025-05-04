@@ -2,6 +2,17 @@
 
 The “RISC-V based MYTH (Microprocessor for You in Thirty Hours)” workshop provides a structured introduction to RISC-V architecture, covering software-to-hardware concepts through hands-on labs. Participants begin with C programming, GCC compilation, and Spike simulation before progressing to number systems and assembly programming. The workshop delves into combinational and sequential logic, pipeline implementation, and microarchitecture of a single-cycle RISC-V CPU. Labs include instruction decoding, register file operations, ALU implementation, and control flow hazards. The final stages focus on load-store instructions, memory management, and CPU testbench development, offering comprehensive learning experience in microprocessor design and verification.
 
+## RISC-V Course 🎓
+
+![Course Thumbnail](https://via.placeholder.com/300)
+
+**Learn the fundamentals of RISC-V architecture in this comprehensive course.**
+
+**Price:** $49.99  
+
+[Buy Now](https://example.com/buy-course)
+
+
 ## What is RISV-V
 RISC-V is an open-source instruction set architecture (ISA) that defines the basic operations a processor can perform. It's a "blueprint" for designing and building processors, offering a modular and extensible foundation for a wide range of applications, from embedded systems to high-performance computing.
 
