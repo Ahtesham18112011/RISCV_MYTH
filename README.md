@@ -163,7 +163,7 @@ Then you will see the following results after this:
 ******************************************************************************************************************************************************
 
 <details>
-  <summary>Day 3: Digital Logic with TL-verilog and Makerchip</summary>
+  <summary>Day 3: Digital Logic with TL-Verilog and Makerchip</summary>
 
 The day 3 of this course focused on basics of digital logic like logic gates, Multiplexers, Combinational logic, Sequential logic, pipe lined logic and Validity.
 
