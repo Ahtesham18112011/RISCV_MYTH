@@ -318,7 +318,7 @@ The Fibonacci Sequence is a sequence of whole numbers starting with two 1s, wher
 	    
 3. Then click on 'compile'.
 
-![Screenshot (139)](https://github.com/user-attachments/assets/366b293c-c42e-49d8-ac90-c173e201f7cb)
+![Screenshot (139)](https://github.com/Ahtesham18112011/RISCV_MYTH/blob/7cfbfd9ad77dc7acaffa36883aa0f4d69d39f837/LICENSE)
 
 </details>
 
