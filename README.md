@@ -579,6 +579,12 @@ This TL-Verilog is used for making a basic RISC-V CPU architecture but till the 
          
          $br_tgt_pc[31:0] = $pc + $imm;
 
+## Visualisation Video
+
+
+
+https://github.com/user-attachments/assets/f43f9e7d-f6ca-478c-8c7f-6f747643a2b1
+
 
 
 
