@@ -602,3 +602,5 @@ https://github.com/user-attachments/assets/f43f9e7d-f6ca-478c-8c7f-6f747643a2b1
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
+## Acknowledgements
+I would thank to Kunal Ghosh sir who guided us over this workshop and also taught us the first two days of this workshop. I will also express my gratitude to Steve Hoover sir who taught us in the last 3 days. And also thank to VSD and Redwood EDA for organizing this workshop 
