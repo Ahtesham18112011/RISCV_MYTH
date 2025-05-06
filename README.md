@@ -353,13 +353,13 @@ ALU stands for Arithmetic Logic Unit, a fundamental component of a computer's ce
 2. Go to editor and place the below TL-Verilog in place of //...
 
  		  |cpu
-      @0
-         $reset = *reset;
-         $pc[31:0] = >>1$reset ? '0 :  (>>1$pc + 32'd4);
+     		 @0
+       		  $reset = *reset;
+       		  $pc[31:0] = >>1$reset ? '0 :  (>>1$pc + 32'd4);
          
-      @1
-         $imem_rd_en = ! $reset;
-         $imem_rd_addr = $pc[M4_IMEM_INDEX_CNT-1:0];
+     		 @1
+     		    $imem_rd_en = ! $reset;
+    		     $imem_rd_addr = $pc[M4_IMEM_INDEX_CNT-1:0];
          
          
          $instr[31:0] = $imem_rd_data[31:0];
