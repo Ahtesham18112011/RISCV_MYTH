@@ -457,10 +457,10 @@ This TL-Verilog is used for making a basic RISC-V CPU architecture but till the 
      		 @0
         		 $reset = *reset;
          
-         $pc[31:0] = (>>1$reset) ? 32'd0 : (>>1$pc + 32'd4);
+        		 $pc[31:0] = (>>1$reset) ? 32'd0 : (>>1$pc + 32'd4);
          
         
-      @1
+     			 @1
    		
          		$imem_rd_addr[M4_IMEM_INDEX_CNT - 1:0] = $pc[M4_IMEM_INDEX_CNT + 1:2];
          
