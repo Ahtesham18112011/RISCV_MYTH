@@ -443,6 +443,7 @@ ALU stands for Arithmetic Logic Unit, a fundamental component of a computer's ce
 
 ![Screenshot (150)](https://github.com/user-attachments/assets/46f3d917-7555-44a8-99c7-a53ce138d093)
 
+This TL-Verilog is used for making a basic RISC-V CPU architecture but till the decoder.
 
 ## License
 
