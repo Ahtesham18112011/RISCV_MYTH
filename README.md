@@ -441,6 +441,8 @@ ALU stands for Arithmetic Logic Unit, a fundamental component of a computer's ce
 	    
 4. Then click on 'compile'.
 
+![Screenshot (150)](https://github.com/user-attachments/assets/46f3d917-7555-44a8-99c7-a53ce138d093)
+
 
 ## License
 
