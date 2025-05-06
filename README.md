@@ -331,6 +331,15 @@ The Fibonacci Sequence is a sequence of whole numbers starting with two 1s, wher
   ## Basic structure of RISC-V CPU microarchitecture
   ![Screenshot (149)](https://github.com/user-attachments/assets/ce7e4e24-1d8a-408d-9f78-ab4e322cfd9c)
 
+**PC MUX**: In RISC-V, the PC MUX (Program Counter Multiplexer) is a circuit that selects the next instruction to be executed based on various factors, including the type of instruction.
+
+**Rd Imem**: In RISC-V architecture, IMEM Rd refers to the Read operation from the Instruction Memory (IMEM). This operation fetches the instruction from memory, given an address provided by the Program Counter (PC), and sends it to the processor.
+
+**Decoder**: In RISC-V, the decoder is a crucial component that translates binary instruction codes into the control signals needed for the processor to execute the instruction.
+
+**Read/Write register**: These are the register in RISC-V for read and write memory. Their are 32 registers like this in a RISC-V microachitecture.
+
+**ALU**: ALU stands for Arithmetic Logic Unit, a fundamental component of a computer's central processing unit (CPU). It's responsible for performing arithmetic operations (like addition, subtraction, multiplication, division) and logical operations (like AND, OR, NOT, XOR) on binary data.
 
 
 
