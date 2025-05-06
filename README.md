@@ -466,29 +466,29 @@ This TL-Verilog is used for making a basic RISC-V CPU architecture but till the 
          
          		$imem_rd_en = !$reset;
          
-         $instr[31:0] = $imem_rd_data[31:0];
+        		 $instr[31:0] = $imem_rd_data[31:0];
          
          
          
-         $is_i_instr = $instr[6:2] ==? 5'b0000x ||
+         		$is_i_instr = $instr[6:2] ==? 5'b0000x ||
                        $instr[6:2] ==? 5'b001x0 ||
                        $instr[6:2] ==? 5'b11001 ||
                        $instr[6:2] ==? 5'b00100;
          
-         $is_r_instr = $instr[6:2] ==? 5'b01011 ||
+   		  $is_r_instr = $instr[6:2] ==? 5'b01011 ||
                        $instr[6:2] ==? 5'b011x0 ||
                        $instr[6:2] ==? 5'b10100;
          
-         $is_s_instr = $instr[6:2] ==? 5'b0100x;
+        		 $is_s_instr = $instr[6:2] ==? 5'b0100x;
          
-         $is_b_instr = $instr[6:2] ==? 5'b11000;
+        		 $is_b_instr = $instr[6:2] ==? 5'b11000;
          
-         $is_j_instr = $instr[6:2] ==? 5'b11011;
+        		 $is_j_instr = $instr[6:2] ==? 5'b11011;
          
-         $is_u_instr = $instr[6:2] ==? 5'b0x101;
+      		   $is_u_instr = $instr[6:2] ==? 5'b0x101;
          
          
-         $imm[31:0] = $is_i_instr ? { {21{$instr[31]}}, $instr[30:20] } :
+         		$imm[31:0] = $is_i_instr ? { {21{$instr[31]}}, $instr[30:20] } :
                       $is_s_instr ? { {21{$instr[31]}}, $instr[30:25], $instr[11:7] } :
                       $is_b_instr ? { {20{$instr[31]}}, $instr[7], $instr[31:25], $instr[11:8], 1'b0 } :
                       $is_u_instr ? { $instr[31:12] , 12'b0 } : 
