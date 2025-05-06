@@ -497,32 +497,30 @@ This TL-Verilog is used for making a basic RISC-V CPU architecture but till the 
          
          
    
-         $funct7_valid = $is_r_instr ? 1'b1 : 1'b0;
-         ?$funct7_valid
-            $funct7[6:0] = $instr[31:25];
-         
-         
-         $u_or_j = $is_u_instr || $is_j_instr;
-         
-         
-         $funct3_valid = $u_or_j ? 1'b0 : 1'b1;
-         ?$funct3_valid
-            $funct3[2:0] = $instr[14:12];
-         
-         
-         $rs1_valid = $u_or_j ? 1'b0 : 1'b1;
+        $rs1_valid = $is_r_instr || $is_i_instr || $is_s_instr || $is_b_instr  ;
          ?$rs1_valid
             $rs1[4:0] = $instr[19:15];
          
          
-         $rs2_valid = ($u_or_j || $is_i_instr) ? 1'b0 : 1'b1;
+         $rs2_valid = $is_r_instr || $is_s_instr || $is_b_instr ;
          ?$rs2_valid
             $rs2[4:0] = $instr[24:20];
          
          
-         $rd_valid = ($is_s_instr || $is_b_instr) ? 1'b0 : 1'b1;
+         $rd_valid = $is_r_instr || $is_i_instr || $is_u_instr || $is_j_instr;
          ?$rd_valid
             $rd[4:0] = $instr[11:7];
+         
+         $funct7_valid = $is_r_instr ;
+         ?$funct7_valid
+            $funct7[6:0] = $instr[31:25];
+         
+         $funct3_valid = $is_r_instr || $is_i_instr || $is_s_instr || $is_b_instr;
+         ?$funct3_valid
+            $funct3[2:0] = $instr[14:12];
+         
+         $opcode_valid = $is_i_instr ||  $is_r_instr || $is_s_instr || $is_b_instr || $is_j_instr || $is_u_instr;
+         ?$opcode_valid
             $opcode[6:0] = $instr[6:0];
 
          
