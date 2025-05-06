@@ -443,9 +443,9 @@ ALU stands for Arithmetic Logic Unit, a fundamental component of a computer's ce
 
 ![Screenshot (150)](https://github.com/user-attachments/assets/46f3d917-7555-44a8-99c7-a53ce138d093)
 
-This TL-Verilog is used for making a basic RISC-V CPU architecture but till the decoder.
+**This TL-Verilog is used for making a basic RISC-V CPU architecture but only from the PC to the decoder.**
 
-**2. Simple RISC-V based CPU which performs addition of number 1 to 9**
+**2. Half-completed RISC-V based CPU which performs addition of number 1 to 9**
 
 1. Go to [Makerchip](makerchip.com) and click on launch makerchip IDE.
 2. Go to editor and place the below TL-Verilog in place of //...
@@ -580,6 +580,8 @@ This TL-Verilog is used for making a basic RISC-V CPU architecture but till the 
          $br_tgt_pc[31:0] = $pc + $imm;
 
 3. Then click on 'compile'
+
+**This TL-Verilog code is the final code for a basic 1 to 9 summer with the write and read register, ALU, Branch etc.**
 
 
 ![Screenshot (151)](https://github.com/user-attachments/assets/f9707702-e856-4041-b3a6-95cc12ad3505)
