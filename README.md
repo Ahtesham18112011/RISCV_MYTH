@@ -324,6 +324,12 @@ The Fibonacci Sequence is a sequence of whole numbers starting with two 1s, wher
 
 ******************************************************************************************************************************************************
 
+<details>
+  <summary>Day 4: Basic RISC-V CPU microarchitecture</summary>
+	
+  This day focuses on the basic single cycled RISC-V CPU microarchitecture.
+  ## Basic structure of RISC-V CPU microarchitecture
+  ![Screenshot (149)](https://github.com/user-attachments/assets/ce7e4e24-1d8a-408d-9f78-ab4e322cfd9c)
 
 
 
