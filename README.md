@@ -591,7 +591,9 @@ This TL-Verilog is used for making a basic RISC-V CPU architecture but till the 
 
 https://github.com/user-attachments/assets/f43f9e7d-f6ca-478c-8c7f-6f747643a2b1
 
+</details>
 
+******************************************************************************************************************************************************
 
 
 ## License
