@@ -23,7 +23,7 @@ RISC-V is an open-source instruction set architecture (ISA) that defines the bas
   
 
 
-The day 1 of this course covered the introduction to the RISC-V ISA, GNU compiler, binary number systemms, unsigned 64-bit binary number system and signed 64-bit binary system.
+
 ## Binary number system 
 The binary number system  contains only two numbers that are 0 and 1 and a bit is the digit of a binary number a group og 8 bits is called a byte and a group of 32 bits is called a word. Similarly a group of 64 bits is called a doubleword.
 If i a have a 2-bit binary number the number of possible pattern for these two numbers are 00,01,10,11. Only these are the 4 combinations of a 2-bit binary number. The number of possiblities of binary number having `n` number of bits can be calculated by the following formula:
@@ -97,7 +97,7 @@ Then you should see the same result as:
 <details>
   <summary>Day 2: Introduction to ABI and basic verification flow</summary>
 	
-The day2 focuses on ABI (Application Binary Interface) and the 32 registers present in the RISC V micrprocessor
+
 
 ## What is ABI
 An Application Binary Interface (ABI) is a standard that defines the interface between compiled applications and the operating system, or between different binary modules. ABIs define the rules that compilers and assemblers must follow when generating binary code, ensuring that different code modules can be linked together and executed seamlessly.
@@ -165,7 +165,7 @@ Then you will see the following results after this:
 <details>
   <summary>Day 3: Digital Logic with TL-Verilog and Makerchip</summary>
 
-The day 3 of this course focused on basics of digital logic like logic gates, Multiplexers, Combinational logic, Sequential logic, pipe lined logic and Validity.
+
 
 ## Logic gates
 
@@ -327,7 +327,7 @@ The Fibonacci Sequence is a sequence of whole numbers starting with two 1s, wher
 <details>
   <summary>Day 4: Basic RISC-V CPU microarchitecture</summary>
 	
-  This day focuses on the basic single cycled RISC-V CPU microarchitecture.
+  
   ## Basic structure of RISC-V CPU microarchitecture
   ![Screenshot (149)](https://github.com/user-attachments/assets/ce7e4e24-1d8a-408d-9f78-ab4e322cfd9c)
 
