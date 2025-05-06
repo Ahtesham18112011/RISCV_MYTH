@@ -451,7 +451,7 @@ This TL-Verilog is used for making a basic RISC-V CPU architecture but till the 
 2. Go to editor and place the below TL-Verilog in place of //...
 
 			
-3. Then click on 'compile'.
+
 
 		|cpu
      		 @0
@@ -578,6 +578,12 @@ This TL-Verilog is used for making a basic RISC-V CPU architecture but till the 
          
          
          $br_tgt_pc[31:0] = $pc + $imm;
+
+3. Then click on 'compile'
+
+
+![Screenshot (151)](https://github.com/user-attachments/assets/f9707702-e856-4041-b3a6-95cc12ad3505)
+
 
 ## Visualisation Video
 
