@@ -334,7 +334,7 @@ The Fibonacci Sequence is a sequence of whole numbers starting with two 1s, wher
 #### PC MUX
 In RISC-V, the PC MUX (Program Counter Multiplexer) is a circuit that selects the next instruction to be executed based on various factors, including the type of instruction.
 
-##### Rd Imem
+#### Rd Imem
 In RISC-V architecture, IMEM Rd refers to the Read operation from the Instruction Memory (IMEM). This operation fetches the instruction from memory, given an address provided by the Program Counter (PC), and sends it to the processor.
 
 #### Decoder
