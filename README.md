@@ -461,7 +461,7 @@ This TL-Verilog is used for making a basic RISC-V CPU architecture but till the 
          
         
       @1
-         		*passed = |cpu/xreg[10]>>5$value == (1+2+3+4+5+6+7+8+9);
+   		*passed = |cpu/xreg[10]>>5$value == (1+2+3+4+5+6+7+8+9);
          		$imem_rd_addr[M4_IMEM_INDEX_CNT - 1:0] = $pc[M4_IMEM_INDEX_CNT + 1:2];
          
          		$imem_rd_en = !$reset;
