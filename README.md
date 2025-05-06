@@ -359,7 +359,7 @@ ALU stands for Arithmetic Logic Unit, a fundamental component of a computer's ce
          
      		 @1
      		    $imem_rd_en = ! $reset;
-    		     $imem_rd_addr = $pc[M4_IMEM_INDEX_CNT-1:0];
+    		     $imem_rd_addr[M4_IMEM_INDEX_CNT - 1:0] = $pc[M4_IMEM_INDEX_CNT + 1:2];
          
          
          $instr[31:0] = $imem_rd_data[31:0];
