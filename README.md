@@ -324,6 +324,10 @@ The Fibonacci Sequence is a sequence of whole numbers starting with two 1s, wher
 
 ******************************************************************************************************************************************************
 
+
+https://github.com/user-attachments/assets/da5d039f-7ad0-4eb0-bb8e-84f963e3ec20
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
