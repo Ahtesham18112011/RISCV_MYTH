@@ -219,8 +219,8 @@
          $ld_data[31:0] = $dmem_rd_data;
 
 
-      // YOUR CODE HERE
-      // ...
+      
+
 
       // Note: Because of the magic we are using for visualisation, if visualisation is enabled below,
       //       be sure to avoid having unassigned signals (which you might be using for random inputs)
