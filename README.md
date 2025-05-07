@@ -587,7 +587,7 @@ ALU stands for Arithmetic Logic Unit, a fundamental component of a computer's ce
 ![Screenshot (151)](https://github.com/user-attachments/assets/f9707702-e856-4041-b3a6-95cc12ad3505)
 
 
-## Visualisation Video
+# Visualization(VIZ) Video
 
 
 
