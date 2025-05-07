@@ -143,6 +143,11 @@
          $is_and = $dec_bits ==?  11'b0_111_0110011;
          
       @2
+         
+         $src1_value[31:0] = (>>1$rf_wr_index == $rf_rd_index1) && >>1$rf_wr_en  ?
+                              >>1$rf_wr_data : $rf_rd_data1;
+         $src2_value[31:0] = (>>1$rf_wr_index == $rf_rd_index2) && >>1$rf_wr_en  ?
+                              >>1$rf_wr_data : $rf_rd_data2;
          $br_tgt_pc[31:0] = $pc + $imm;
          
          $rf_rd_en1 = $rs1_valid;
@@ -150,14 +155,8 @@
          
          $rf_rd_en2 = $rs2_valid;
          $rf_rd_index2[4:0] = $rs2;
-         $src1_value[31:0] = (>>1$rf_wr_index == $rf_rd_index1) && >>1$rf_wr_en  ?
-                              >>1$rf_wr_data : $rf_rd_data1;
-         $src2_value[31:0] = (>>1$rf_wr_index == $rf_rd_index2) && >>1$rf_wr_en  ?
-                              >>1$rf_wr_data : $rf_rd_data2;
-         
       @3
-         $sltu_rslt = $src1_value < $src2_value;
-         $sltiu_rslt = $src1_value < $imm;
+         
          
          $result[31:0] = $is_addi || $is_load || $is_s_instr? $src1_value + $imm :
                          $is_add ? $src1_value + $src2_value:
@@ -206,6 +205,8 @@
          $rf_wr_en = $rd!='0 && $rd_valid && $valid ; 
          $rf_wr_index[4:0] = >>2$valid_load ? >>2$rd : $rd;
          $rf_wr_data[31:0] = >>2$valid_load ? >>2$ld_data: $result ; 
+         $sltu_rslt = $src1_value < $src2_value;
+         $sltiu_rslt = $src1_value < $imm;
       @4
          $dmem_wr_en = $is_s_instr && $valid;
          
