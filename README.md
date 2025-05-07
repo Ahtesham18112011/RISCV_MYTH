@@ -602,6 +602,8 @@ https://github.com/user-attachments/assets/f43f9e7d-f6ca-478c-8c7f-6f747643a2b1
 
 # Lab: The complete pipelined CPU
 
+This is the link to my work [CPU](https://myth.makerchip.com/sandbox/02kfkhXA6/0k5hOVx#)
+
 1. Go to [Makerchip](makerchip.com) and click on launch makerchip IDE.
 2. Go to editor and place the below TL-Verilog in place of //...
 
