@@ -710,8 +710,8 @@ https://github.com/user-attachments/assets/f43f9e7d-f6ca-478c-8c7f-6f747643a2b1
          $is_or = $dec_bits ==?  11'b0_110_0110011;
          $is_and = $dec_bits ==?  11'b0_111_0110011;
          
-      @2
-         $br_tgt_pc[31:0] = $pc + $imm;
+      		@2
+        		 $br_tgt_pc[31:0] = $pc + $imm;
          
          $rf_rd_en1 = $rs1_valid;
          $rf_rd_index1[4:0] = $rs1;
