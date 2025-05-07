@@ -598,7 +598,7 @@ https://github.com/user-attachments/assets/f43f9e7d-f6ca-478c-8c7f-6f747643a2b1
 ******************************************************************************************************************************************************
 
 <details>
-  <summary>Day 5: Commplete Pipelined RISC-V CPU micro-architecture</summary>
+  <summary>Day 5: Complete Pipelined RISC-V CPU micro-architecture</summary>
 
 # Lab: The complete pipelined CPU
 
