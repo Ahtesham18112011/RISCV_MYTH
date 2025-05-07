@@ -792,7 +792,7 @@ This is the link to my work [CPU](https://myth.makerchip.com/sandbox/02kfkhXA6/0
 
 ![Screenshot (152)](https://github.com/user-attachments/assets/71dfc370-c136-477a-bbf5-cc2bd07034a3)
 
-Visualization(VIZ) 
+# Visualization(VIZ) video 
 
 
 
