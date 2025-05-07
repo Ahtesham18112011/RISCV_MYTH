@@ -788,6 +788,18 @@ https://github.com/user-attachments/assets/f43f9e7d-f6ca-478c-8c7f-6f747643a2b1
 	    
 3. Then click on 'compile'.
 
+![Screenshot (152)](https://github.com/user-attachments/assets/71dfc370-c136-477a-bbf5-cc2bd07034a3)
+
+Visualization(VIZ) 
+
+
+
+https://github.com/user-attachments/assets/155cad09-95b4-4b8e-a9f9-baafab323529
+
+
+
+
+
 
 ## License
 
