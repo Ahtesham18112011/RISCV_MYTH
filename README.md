@@ -616,12 +616,12 @@ https://github.com/user-attachments/assets/f43f9e7d-f6ca-478c-8c7f-6f747643a2b1
                      
          $imem_rd_addr[M4_IMEM_INDEX_CNT - 1:0] = $pc[M4_IMEM_INDEX_CNT + 1:2];
          $imem_rd_en = !$reset;
-      @1
-         *passed = |cpu/xreg[10]>>5$value == (1+2+3+4+5+6+7+8+9);
-         $instr[31:0] = $imem_rd_data;
-         $inc_pc[31:0] = $pc + 4;
+      		@1
+         		*passed = |cpu/xreg[10]>>5$value == (1+2+3+4+5+6+7+8+9);
+         		$instr[31:0] = $imem_rd_data;
+        		 $inc_pc[31:0] = $pc + 4;
          
-         $is_i_instr = $instr[6:2] ==? 5'b0000x ||
+       		  $is_i_instr = $instr[6:2] ==? 5'b0000x ||
                        $instr[6:2] ==? 5'b001x0 ||
                        $instr[6:2] ==? 5'b11001 ||
                        $instr[6:2] ==? 5'b00100;
@@ -723,11 +723,11 @@ https://github.com/user-attachments/assets/f43f9e7d-f6ca-478c-8c7f-6f747643a2b1
          $src2_value[31:0] = (>>1$rf_wr_index == $rf_rd_index2) && >>1$rf_wr_en  ?
                               >>1$rf_wr_data : $rf_rd_data2;
          
-      @3
-         $sltu_rslt = $src1_value < $src2_value;
-         $sltiu_rslt = $src1_value < $imm;
+     		 @3
+        		 $sltu_rslt = $src1_value < $src2_value;
+        		 $sltiu_rslt = $src1_value < $imm;
          
-         $result[31:0] = $is_addi || $is_load || $is_s_instr? $src1_value + $imm :
+         		$result[31:0] = $is_addi || $is_load || $is_s_instr? $src1_value + $imm :
                          $is_add ? $src1_value + $src2_value:
                          $is_andi ? $src1_value & $imm:
                          $is_ori ? $src1_value | $imm:
@@ -774,17 +774,17 @@ https://github.com/user-attachments/assets/f43f9e7d-f6ca-478c-8c7f-6f747643a2b1
          $rf_wr_en = $rd!='0 && $rd_valid && $valid ; 
          $rf_wr_index[4:0] = >>2$valid_load ? >>2$rd : $rd;
          $rf_wr_data[31:0] = >>2$valid_load ? >>2$ld_data: $result ; 
-      @4
-         $dmem_wr_en = $is_s_instr && $valid;
+     		 @4
+       		  $dmem_wr_en = $is_s_instr && $valid;
          
-         $dmem_addr[3:0] = $result[5:2];
+       		  $dmem_addr[3:0] = $result[5:2];
          
-         $dmem_wr_data[31:0] = $src2_value;
+       		  $dmem_wr_data[31:0] = $src2_value;
          
-         $dmem_rd_en = $is_load;
+        		 $dmem_rd_en = $is_load;
          
-      @5
-         $ld_data[31:0] = $dmem_rd_data;
+     		 @5
+		         $ld_data[31:0] = $dmem_rd_data;
 	    
 3. Then click on 'compile'.
 
