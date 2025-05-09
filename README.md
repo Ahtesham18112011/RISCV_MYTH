@@ -18,6 +18,9 @@ RISC-V is an open-source instruction set architecture (ISA) that defines the bas
 > 2. All the projects in makerchip are made by the RISC-V/Calculater starter code which is present in the [RISC-V_MYTH_Workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop) repository you can click the RISC-V/Calculater starter link present in the repository and make projects from there only. 
 
 # Summary of this workshop
+
+******************************************************************************************************************************************************
+
 <details>
   <summary>Day 1: Introduction to RISC-V ISA and GNU compiler toolchain</summary>
 
