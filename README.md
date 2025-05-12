@@ -809,7 +809,7 @@ https://github.com/user-attachments/assets/155cad09-95b4-4b8e-a9f9-baafab323529
 ******************************************************************************************************************************************************
 
 > [!NOTE]
-> To implement this  RISC-V core in VSDSquadronFM, [this](https://github.com/Ahtesham18112011/RISCV_Implementation) is my another repository
+> To implement this  RISC-V core in VSDSquadronFM FPGA, [this](https://github.com/Ahtesham18112011/RISCV_Implementation) is my another repository
 > 
 
 
